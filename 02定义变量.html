@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			//定义变狼
+			var a1 ;
+			
+			var a2 = 10;//定义变量并赋值
+			
+			var a3=10,a4=20,a5=30;//定义多个变量
+			
+			var A3= 30;//js区分大小写
+			
+			//typeof 检测变量类型
+			console.log(typeof A3);//"number"
+			
+			var a6 ;
+			console.log(typeof a6)//undefined"
+			
+			var a7 = null;
+			console.log(typeof a7);//"object"
+			
+			console.log(null == undefined);// "true"
+			
+			var a8= true;
+			console.log(typeof a8);//"boolean"
+			
+			
+			var a9 = 10;
+			var a10 = 10.5;
+			console.log(typeof a9);//"number"
+			console.log(typeof a10);//"number"
+			
+			console.log(0/0);//"NaN"
+			console.log(12/0);//"Infinity"
+			console.log(-12/0);//"-Infinity"
+			
+			var a11 = "hello word";
+			console.log(typeof a11);//"string"
+			console.log(a11/10);//"NaN"
+			
+			// isNaN()函数
+			console.log(isNaN(a11/10));//"true"
+			console.log(isNaN(20/10));
+			
+			//  parseInt()      是把其它类型转换为整型；
+			var a12 = 30.5;
+			var a13 = "a";
+			console.log(parseInt(a12));// "30"
+			var a14 = parseInt(a13);
+			console.log(typeof a14);//"number"
+			
+			// parseFloat()  是把其它类型转换为浮点型（小数）
+			console.log(parseFloat(a12));
+			var a15 = parseFloat(a13);
+			console.log(typeof a15);//"number"
+			
+			//四舍五入Math.round
+			console.log(Math.round(29.4));
+			
+			
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

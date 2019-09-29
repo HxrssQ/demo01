@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			//1.if单分支
+			var a = 20 ;
+			if(a>30){
+				console.log(a);
+			}
+			if(a>10){
+				//表达式为真时，执行大括号里的代码，否则不执行
+				console.log("hhhhh");
+			}
+			
+			//2. if 双分支
+			var b = 20 ;
+			if(b>10){
+				//表达式为真，则执行这里的代码，否则执行else里边的代码
+				console.log("123");
+			}else{
+				console.log("456");
+			}
+			
+			//if 多分支
+			var c = 96;
+			if(c == 100){
+				console.log("满分")
+			}else if(c>90){
+				console.log("优秀")
+			}else if(c>60){
+				console.log("及格")
+			}else{
+				console.log("不及格")
+			}
+			
+			//if嵌套
+			var a = 100,b=60,c=30;
+			if(a>b){
+				if(a>c){
+					console.log("最大数为："+"a");
+				}else{
+					console.log("最大数为："+"c");
+				}
+			}else{
+				if(b>c){
+					console.log("最大数为："+"b");
+				}else{
+					console.log("最大数为："+"c");
+				}
+			}
+			
+			//多分支——switch语句
+			var a = "B";
+			switch(a){
+				case "A":
+				console.log("成绩优秀");
+				break;
+				case "B":
+				console.log("成绩优良");
+				break;
+				case "C":
+				console.log("成绩及格");
+				break;
+				case "D":
+				console.log("成绩不及格");
+				break;
+				default:
+				console.log("这不是一个成绩");
+				break;
+			}
+			
+			
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
